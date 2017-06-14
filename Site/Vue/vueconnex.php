@@ -28,7 +28,7 @@
         <br>
         <input type="password" name="mdpconnect" placeholder="Mot de passe" class="inputbasic"/>
         <br /><br />
-        <input type="submit" name="formconnexion" value="Se connecter !" />
+        <input type="submit" name="formconnexion" value="Se connecter !" class="new2" />
     </form>
     <a href="../Controleur/inscription.php"><input type="submit" value="Toujours pas inscrit ?" class ="new2" /></a>
 

@@ -25,8 +25,7 @@ if (isset($_POST['sup'])) {
     print_r($_POST['sup'][0]);
     $supp = $bdd -> prepare('DELETE FROM membres WHERE id='.$sup);
     $supp -> execute();
-    print_r ($supp) ;
-    echo 'effacé';
+    header('Location: http://localhost/Projet-app/Site/Controleur/bo.php');
 }
 
 ?>
