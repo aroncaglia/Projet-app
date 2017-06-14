@@ -28,6 +28,7 @@
             <td><?php echo $donnees['pseudo'];?></td>
             <td><?php echo $donnees['mail'];?></td>
             <td><?php echo $donnees['Nbrmais'];?></td>
+            <td><form action='../Modele/modelebo.php' method='POST'><input type="submit" class="Bouton" name="sup" value=<?php echo $donnees['id']; ?>/></form></td>
         </tr>
 
         <?php

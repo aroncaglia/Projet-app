@@ -10,7 +10,7 @@ session_start();
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="../View/annonce.css">
+    <link rel="stylesheet" type="text/css" href="../Vue/CssSite1.css">
 
     <title>annonces</title>
 </head>
@@ -18,12 +18,6 @@ session_start();
 
 
 require('../model/Choix_maison.php');
-
-require('../model/Choix maison.php');
-echo 'cc';
-
-
-require('../model/Choix maison.php');
 echo 'cc';
 
 $maison=getmaison(2);
