@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13e6d61c-8bf7-4a55-b292-a8f2f2b3078e" name="Default" comment="&quot;refactor page piece&quot;" />
+    <list default="true" id="13e6d61c-8bf7-4a55-b292-a8f2f2b3078e" name="Default" comment="&quot;refactor page piece&quot;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Site/Vue/accueilapconnexion.php" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Site_Domisep/untitled/Vue/Accueilconnexion.php" afterPath="$USER_HOME$/Desktop/Site_Domisep/untitled/Vue/Accueilconnexion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/Controleur/Maison.php" afterPath="$PROJECT_DIR$/Site/Controleur/Maison.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/Modele/Mod_maison.php" afterPath="$PROJECT_DIR$/Site/Modele/Mod_maison.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/Vue/vue_maison.php" afterPath="$PROJECT_DIR$/Site/Vue/vue_maison.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,9 +22,22 @@
       <file leaf-file-name="Maison.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Site/Controleur/Maison.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accueilapconnexion.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Site/Vue/accueilapconnexion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+              <folding>
+                <marker date="1497434717864" expanded="true" signature="1933:2010" ph="SELECT Etat actionneurs" />
+                <marker date="1497434717864" expanded="true" signature="2058:2135" ph="SELECT Etat actionneurs" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -25,22 +45,22 @@
       <file leaf-file-name="Mod_maison.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Site/Modele/Mod_maison.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="2" lean-forward="false" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
-                <marker date="1497432046750" expanded="true" signature="385:427" ph="SELECT Nbrma... membres" />
-                <marker date="1497432046750" expanded="true" signature="628:702" ph="SELECT Type capteurs" />
-                <marker date="1497432046750" expanded="true" signature="956:996" ph="INSERT INTO membres... " />
+                <marker date="1497433768957" expanded="true" signature="368:410" ph="SELECT Nbrma... membres" />
+                <marker date="1497433768957" expanded="true" signature="611:685" ph="SELECT Type capteurs" />
+                <marker date="1497433768957" expanded="true" signature="939:979" ph="INSERT INTO membres... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vue_maison.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vue_maison.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Site/Vue/vue_maison.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -55,10 +75,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$USER_HOME$/Desktop/Site_Domisep/untitled/Controleur/Choix.php" />
-        <option value="$PROJECT_DIR$/Site/Controleur/Maison.php" />
-        <option value="$PROJECT_DIR$/Site/Modele/Mod_maison.php" />
         <option value="$USER_HOME$/Desktop/Site_Domisep/untitled/Vue/Vuechoixmaison.php" />
+        <option value="$PROJECT_DIR$/Site/Controleur/Maison.php" />
         <option value="$PROJECT_DIR$/Site/Vue/vue_maison.php" />
+        <option value="$PROJECT_DIR$/Site/Modele/Mod_maison.php" />
+        <option value="$USER_HOME$/Desktop/Site_Domisep/untitled/Vue/Accueilconnexion.php" />
+        <option value="$PROJECT_DIR$/Site/Vue/accueilapconnexion.php" />
       </list>
     </option>
   </component>
@@ -68,7 +90,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP_from_wamp" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -136,28 +158,6 @@
               <option name="myItemId" value="Site" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modele" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projet-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projet-app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Site" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controleur" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -181,7 +181,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.accueilapconnexion.php">
+    <configuration default="false" name="vue_maison.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Projet-app/Site/Vue/vue_maison.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="Mod_maison.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Projet-app/Site/Modele/Mod_maison.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="Maison.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Projet-app/Site/Controleur/Maison.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="accueilapconnexion.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Site/Vue/accueilapconnexion.php">
+      <method />
+    </configuration>
     <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
       <PhpTestRunnerSettings />
       <method />
@@ -249,6 +261,20 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.vue_maison.php" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Mod_maison.php" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Maison.php" />
+      <item index="3" class="java.lang.String" itemvalue="PHP Script.accueilapconnexion.php" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.accueilapconnexion.php" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Maison.php" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.vue_maison.php" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Mod_maison.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -261,7 +287,7 @@
       <option name="presentableId" value="Default" />
       <updated>1497430225113</updated>
       <workItem from="1497430228491" duration="954000" />
-      <workItem from="1497432129531" duration="53000" />
+      <workItem from="1497432129531" duration="2997000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;refactor page piece&quot;">
       <created>1497432071902</created>
@@ -274,17 +300,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1007000" />
+    <option name="totallyTimeSpent" value="3951000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294271" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -298,6 +325,25 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -327,9 +373,9 @@
         <state relative-caret-position="731">
           <caret line="43" column="2" lean-forward="false" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
           <folding>
-            <marker date="1497432046750" expanded="true" signature="385:427" ph="SELECT Nbrma... membres" />
-            <marker date="1497432046750" expanded="true" signature="628:702" ph="SELECT Type capteurs" />
-            <marker date="1497432046750" expanded="true" signature="956:996" ph="INSERT INTO membres... " />
+            <marker date="1497433768957" expanded="true" signature="368:410" ph="SELECT Nbrma... membres" />
+            <marker date="1497433768957" expanded="true" signature="611:685" ph="SELECT Type capteurs" />
+            <marker date="1497433768957" expanded="true" signature="939:979" ph="INSERT INTO membres... " />
           </folding>
         </state>
       </provider>
@@ -338,14 +384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
           <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Site/Controleur/Maison.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -370,18 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Site/Modele/Mod_maison.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="2" lean-forward="false" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
-          <folding>
-            <marker date="1497432046750" expanded="true" signature="385:427" ph="SELECT Nbrma... membres" />
-            <marker date="1497432046750" expanded="true" signature="628:702" ph="SELECT Type capteurs" />
-            <marker date="1497432046750" expanded="true" signature="956:996" ph="INSERT INTO membres... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/Site_Domisep/untitled/Vue/Vuechoixmaison.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -393,11 +419,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Site/Controleur/connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1497430221083" expanded="true" signature="280:335" ph="SELECT * FRO... membres" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Site/Vue/vue_maison.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/Modele/Mod_maison.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1497433768957" expanded="true" signature="368:410" ph="SELECT Nbrma... membres" />
+            <marker date="1497433768957" expanded="true" signature="611:685" ph="SELECT Type capteurs" />
+            <marker date="1497433768957" expanded="true" signature="939:979" ph="INSERT INTO membres... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Site_Domisep/untitled/Vue/Accueilconnexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="73" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding>
+            <marker date="1497434367519" expanded="true" signature="1929:2030" ph="SELECT actio... actionneurs" />
+            <marker date="1497434367519" expanded="true" signature="2078:2179" ph="SELECT actio... actionneurs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/Controleur/Maison.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/Vue/accueilapconnexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding>
+            <marker date="1497434717864" expanded="true" signature="1933:2010" ph="SELECT Etat actionneurs" />
+            <marker date="1497434717864" expanded="true" signature="2058:2135" ph="SELECT Etat actionneurs" />
+          </folding>
         </state>
       </provider>
     </entry>
