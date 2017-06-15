@@ -76,7 +76,7 @@
 
                         <br />
                         <input type="submit" value="Envoyer" class="button" />
-                        <br><?php echo $te ?>
+                        <br>
                         </p>
 
                     </form>

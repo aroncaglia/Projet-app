@@ -42,8 +42,12 @@ session_start();
         </p>
 
         <li><h3>Conditions générales d'utilisation</h3></li>
-        <p>
-        </p>
+            <?php
+            require('../Modele/About_M.php');
+            $CGU=getCGU();
+            print_r($CGU[0]);
+            ?>
+
             <li><h3>Contact administrateur</h3></li>
             <p>
                Avant de nous contacter, veuillez vérifier si la réponse à votre question ne se trouve pas dans notre F.A.Q .

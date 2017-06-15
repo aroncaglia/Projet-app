@@ -65,9 +65,10 @@ $reponse = mysql_query("SELECT * FROM capteurs WHERE id_capteur = $te ");
             echo '<p> Retour vers la page capteur ?  <a href="../Controleur/capteur.php"><input type="submit" value="Retour" class ="id" /></a> </p>';
         }
         elseif ($_POST['action'] == 'choix2') {                        // Second choix
-                $requete = $bdd->prepare('
-                    DELETE * FROM capteurs WHERE Fonction = fonction and id_capteur = $te 
-                ');
+
+                $requete = $bdd->prepare('DELETE FROM capteurs WHERE Fonction= ?');
+                $requete->execute(array($_POST['fonction']));
+
                 $requete->closeCursor();
 
                 echo 'Votre capteur a bien été supprimé !';
@@ -98,4 +99,3 @@ $reponse = mysql_query("SELECT * FROM capteurs WHERE id_capteur = $te ");
         echo '<p>Veuillez choisir une requête !</p>';
     }
 ?>
-

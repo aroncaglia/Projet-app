@@ -145,6 +145,8 @@ p.info{
 
 }
 
+
+
 .information1
 {
     text-align: center;
@@ -159,6 +161,10 @@ p.info{
     vertical-align:middle;
 
 }
+
+
+
+
 .general{
     display: inline-block;
 }
@@ -377,14 +383,15 @@ p.info{
     margin-left: 10%;
     margin-bottom: 10%;
     background-color: white;
-    border: 1px solid deeppink;
+    border: 1px solid darkblue;
     padding: 5px;
-    color: deeppink;
+    color: darkblue;
     transition: all 0.5s ease;
+    font-family: Verdana;
 }
 
 .new2:hover{
-    background-color: deeppink;
+    background-color: darkblue;
     color: white;
 }
 

@@ -10,12 +10,22 @@ session_start();
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<<<<<<< HEAD
     <link rel="stylesheet" type="text/css" href="../View/CssSite1.css">
+=======
+    <link rel="stylesheet" type="text/css" href="../Vue/CssSite1.css">
+>>>>>>> 3787d5904cd28dba4d648d2038f65d88af5f73ad
 
     <title>annonces</title>
 </head>
 <?php
+<<<<<<< HEAD
 require('../modele/Mod_maison.php');
+=======
+
+
+require('../model/Choix_maison.php');
+>>>>>>> 3787d5904cd28dba4d648d2038f65d88af5f73ad
 echo 'cc';
 
 $maison=getmaison(2);
