@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13e6d61c-8bf7-4a55-b292-a8f2f2b3078e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Site/Modele/About_M.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Site/Vue/about_test.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site/Vue/Quisommesnous.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Site/Modele/Quisommesnous_M.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Site/Vue/about_test.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/Vue/about.php" afterPath="$PROJECT_DIR$/Site/Vue/about.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Site/Vue/Quisommesnous.html" afterPath="$PROJECT_DIR$/Site/Vue/Quisommesnous.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/Vue/Quisommesnous.php" afterPath="$PROJECT_DIR$/Site/Vue/Quisommesnous.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,19 +20,22 @@
       <file leaf-file-name="Quisommesnous.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Site/Vue/Quisommesnous.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="525">
+              <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Maison.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Site/Controleur/Maison.php">
+      <file leaf-file-name="Quisommesnous_M.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Site/Modele/Quisommesnous_M.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="315">
+              <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+              <folding>
+                <marker date="1497601016569" expanded="true" signature="342:370" ph="SELECT CGU F... Info_Domise" />
+                <marker date="1497601016569" expanded="true" signature="342:379" ph="SELECT Prése... Info_Domisep" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,18 +43,8 @@
       <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Site/Vue/about.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about_test.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Site/Vue/about_test.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+            <state relative-caret-position="525">
+              <caret line="48" column="14" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="48" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -63,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/Site/Modele/About_M.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+              <caret line="15" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
               <folding>
                 <marker date="1497445271638" expanded="true" signature="333:361" ph="SELECT CGU F... Info_Domisep" />
               </folding>
@@ -98,6 +89,7 @@
         <option value="$PROJECT_DIR$/Site/Modele/About_M.php" />
         <option value="$PROJECT_DIR$/Site/Vue/about.php" />
         <option value="$PROJECT_DIR$/Site/Vue/about_test.php" />
+        <option value="$PROJECT_DIR$/Site/Modele/Quisommesnous_M.php" />
         <option value="$PROJECT_DIR$/Site/Vue/Quisommesnous.php" />
       </list>
     </option>
@@ -133,8 +125,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,6 +193,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,7 +296,8 @@
       <workItem from="1497432129531" duration="53000" />
       <workItem from="1497432782514" duration="3951000" />
       <workItem from="1497440899456" duration="1240000" />
-      <workItem from="1497444918351" duration="1206000" />
+      <workItem from="1497444918351" duration="4023000" />
+      <workItem from="1497599276400" duration="1789000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;refactor page piece&quot;">
       <created>1497432071902</created>
@@ -327,18 +320,26 @@
       <option name="project" value="LOCAL" />
       <updated>1497441221892</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="liaison CGU BDD&#10;pour la deuxième fois merci Adrien">
+      <created>1497446359079</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1497446359079</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7404000" />
+    <option name="totallyTimeSpent" value="12010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2421875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2421875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -365,13 +366,48 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;refactor page piece&quot;" />
     <MESSAGE value="bouton supprimer" />
-    <option name="LAST_COMMIT_MESSAGE" value="bouton supprimer" />
+    <MESSAGE value="liaison CGU BDD&#10;pour la deuxième fois merci Adrien" />
+    <option name="LAST_COMMIT_MESSAGE" value="liaison CGU BDD&#10;pour la deuxième fois merci Adrien" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Site/Vue/Quisommesnous.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/Controleur/Maison.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/Vue/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/Modele/About_M.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding>
+            <marker date="1497445271638" expanded="true" signature="333:361" ph="SELECT CGU F... Info_Domisep" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Site/Vue/vue_maison.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
@@ -408,7 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -416,7 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8169">
           <caret line="389" column="24" lean-forward="false" selection-start-line="389" selection-start-column="24" selection-end-line="389" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -547,7 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -555,7 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="389" column="24" lean-forward="false" selection-start-line="389" selection-start-column="24" selection-end-line="389" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -567,6 +599,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Site/Vue/about_test.php" />
     <entry file="file://$PROJECT_DIR$/Site/Controleur/Maison.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -578,33 +611,36 @@
     <entry file="file://$PROJECT_DIR$/Site/Modele/About_M.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <caret line="15" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
           <folding>
             <marker date="1497445271638" expanded="true" signature="333:361" ph="SELECT CGU F... Info_Domisep" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Site/Vue/about_test.php">
+    <entry file="file://$PROJECT_DIR$/Site/Vue/about.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        <state relative-caret-position="525">
+          <caret line="48" column="14" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="48" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Site/Vue/about.php">
+    <entry file="file://$PROJECT_DIR$/Site/Modele/Quisommesnous_M.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="315">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding>
+            <marker date="1497601016569" expanded="true" signature="342:370" ph="SELECT CGU F... Info_Domise" />
+            <marker date="1497601016569" expanded="true" signature="342:379" ph="SELECT Prése... Info_Domisep" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Site/Vue/Quisommesnous.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="525">
+          <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
           <folding />
         </state>
       </provider>

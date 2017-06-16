@@ -22,9 +22,12 @@
     <h1 class="double" > Qui sommes nous ? </h1>
     <a class="logo"><img src="../Vue/contenu/LOGO_ISEP_FINAL.png" alt="Logo" width="63" height="61" /></a>
     <div class="presentation">
-        <p>Domisep est une société existante depuis 5 ans qui propose d'installer un système domotique dans vos maisons.
-         Ce système est entièrement personalisable par l'utilisateur tout comme les capteurs désirés. Nous vous garantissons
-        un système sécurisé et un service après vente irréprochable pour une utilisation en tout sérennité.</p>
+        <?php
+        require('../Modele/Quisommesnous_M.php');
+        $Presentation=getPresentation();
+        print_r($Presentation[0]);
+        ?>
+
     </div>
 
 
