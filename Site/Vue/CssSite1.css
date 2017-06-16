@@ -169,6 +169,10 @@ p.info{
     display: inline-block;
 }
 
+.test{
+    display: inline-block;
+    margin-top: 10%;
+}
 .ide
 {
     width: 350px;
@@ -302,6 +306,7 @@ p.info{
 
 .content
 {
+
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;

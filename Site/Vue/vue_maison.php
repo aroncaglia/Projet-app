@@ -1,64 +1,68 @@
 <?php
 session_start();
-
+$id =$_SESSION['id'];
 ?>
 
-<!doctype html>
-<html lang="fr">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<<<<<<< HEAD
-    <link rel="stylesheet" type="text/css" href="../View/CssSite1.css">
-=======
-    <link rel="stylesheet" type="text/css" href="../Vue/CssSite1.css">
->>>>>>> 3787d5904cd28dba4d648d2038f65d88af5f73ad
+    <link rel="stylesheet" href="CssSite1.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>annonces</title>
 </head>
-<?php
-<<<<<<< HEAD
-require('../modele/Mod_maison.php');
-=======
-
-
-require('../model/Choix_maison.php');
->>>>>>> 3787d5904cd28dba4d648d2038f65d88af5f73ad
-echo 'cc';
-
-$maison=getmaison(2);
-print_r($maison);
-?>
+<meta charset="UTF-8">
 <body>
 
-
-<label for="maison">Quelle maison :</label>
-<select class="select" name="maison">
-    {
-    <?php
-
-    if($maison[0]==1) {
-        echo'<option value="1">maison 1</option>';
-    }
-    if($maison[0]==2) {
-        echo'<option value="1">maison 1</option>';
-        echo '<option value="2">maison 2</option>';
-    }
-    if($maison[0]==3) {
-        echo'<option value="1">maison 1</option>';
-        echo'<option value="2">maison 2</option>';
-        echo'<option value="3">maison 3</option>';
-    }
-    ?>
-
-    }
-    ?>
-</select>
+<ul class="horinav">
+    <li><a href="Accueil.html">Home</a></li>
+    <li><a  href="Mes_Fonctionnalitées.html">Mes Fontionnalitées</a></li>
+    <li><a class="active" href="Choixmaison.php">Mes pièces</a></li>
+    <li><a href="about.html">Aide</a></li>
+</ul>
 
 
+
+<div class="content">
+    <a class="logo"><img src="contenu/LOGO_ISEP_FINAL.png" alt="Logo" width="63" height="61" /></a>
+    <div class="test">
+        <?php
+
+        require('../Modele/Mod_maison.php');
+        $maison=getmaison($id);
+
+        ?>
+        <form method="post" action="../Controleur/Maison.php">
+            <label for="maison" name="nbr">Dans quelle maison souhaitez vous gérer vos capteurs :</label>
+            <select class="select" name="choix_maison">
+                {
+                <?php
+
+                if($maison[0]==1) {
+                    echo'<option value="1">maison 1</option>';
+                }
+                if($maison[0]==2) {
+                    echo'<option value="1">maison 1</option>';
+                    echo '<option value="2">maison 2</option>';
+                }
+                if($maison[0]==3) {
+                    echo'<option value="1">maison 1</option>';
+                    echo'<option value="2">maison 2</option>';
+                    echo'<option value="3">maison 3</option>';
+                }
+                ?>
+                }
+            </select>
+            <h1>Quelle requête ?</h1>
+            <input type="radio" id="verif" name="requete" value="ajout"> Ajouter une maison à la base de données<br>
+            <input type="radio" id="verif" name="requete" value="sup"> Supprimer une maison de la base de données <br>
+            <input type="radio" id="verif" name="requete" value="ajouter"> Ajouter une pièce dans la maison sélectionnée<br>
+            <input type="radio" id="verif" name="requete" value="supprimer"> Supprimer une pièce dans la maison sélectionnée<br>
+
+            <input type="submit" class="Bouton"name="Ajouter_capteur" value="Envoyer" />
+        </form>
+
+    </div>
+</div>
 </body>
 
-
-
+</html>

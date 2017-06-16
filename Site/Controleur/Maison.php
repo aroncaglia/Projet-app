@@ -1,7 +1,9 @@
 <?php
 session_start();
-require('../Modele/Mod_maison.php');
 $id =$_SESSION['id'];
+
+require('../Modele/Mod_maison.php');
+require('../Vue/vue_maison.php');
 
 
 
@@ -26,11 +28,14 @@ if($_POST['requete']==='sup'){
 }
 
 
-if($_POST['requete']==='ajouter'){
+if($_POST['requete']==='ajouter')
+{
+
 
 }
 
 
-if($_POST['requete']==='supprimer'){
+if($_POST['requete']==='supprimer')
+{
 
 }
