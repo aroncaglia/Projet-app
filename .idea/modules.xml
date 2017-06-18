@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Projet-app.iml" filepath="$PROJECT_DIR$/.idea/Projet-app.iml" />
-      <module fileurl="file://$USER_HOME$/Desktop/Site_Domisep/.idea/Site_Domisep.iml" filepath="$USER_HOME$/Desktop/Site_Domisep/.idea/Site_Domisep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Site.iml" filepath="$PROJECT_DIR$/.idea/Site.iml" />
     </modules>
   </component>
 </project>
