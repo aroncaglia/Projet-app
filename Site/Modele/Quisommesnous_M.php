@@ -8,7 +8,7 @@ function getbdd(){
 }
 function getPresentation(){
     $bdd=getbdd();
-    $query=$bdd->prepare('SELECT Présentation FROM Info_Domisep');
+    $query=$bdd->prepare('SELECT Presentation FROM Info_Domisep');
     $query->execute();
     $result=$query->fetch();
     return $result;

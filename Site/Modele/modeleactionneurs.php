@@ -13,7 +13,7 @@ try {
     die('Erreur : ' . $e->getMessage());
 }
 
-$requete = $bdd->query('SELECT Fonction, id FROM actionneurs_liste ;');                  // Permet l'affectation prochaine
+$requete = $bdd->query('SELECT Fonction, id FROM actionneurs_liste ');                  // Permet l'affectation prochaine
 $types = $requete->fetchAll();
 $requete->closeCursor();
 
