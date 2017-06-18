@@ -24,9 +24,16 @@ session_start();
     </form><br/>
     <form action="#">
         <button type="button"><a href="../Controleur/bo.php">Gestion utilisateurs</href></a></button>
+    </form><br/>
+    <form action="#">
+        <button type="button"><a href="../Vue/vueprefadmin.php">Personaliser</href></a></button>
     </form>
     </p>
 </div>
 </body>
+
+<div class="footer">
+    <p>Copyright : B-Creative</p>
+</div>
 
 </html>

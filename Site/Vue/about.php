@@ -37,8 +37,7 @@ session_start();
             <strong>Propriétaires : </strong> Adrien Roncaglia, Robin Blanc, Amaury Boxberger, Khaled Aouiti, Sébastien Bertrand, Yoann Aberkane.<br/>
             <strong>Web Master : </strong> employé Domisep<br/>
             <strong>Hébergeur : </strong> ISEP<br/>
-            <strong>Nous contacter : </strong><a href="Contact.php">ici<a/>
-            <strong>Accueil : </strong><a href="Accueil.html">ici<a/>
+            <strong>Nous contacter : </strong><a href="../Controleur/Contact.php">ici<a/>
         </p>
 
         <li><h3>Conditions générales d'utilisation</h3></li>
@@ -50,9 +49,8 @@ session_start();
 
             <li><h3>Contact administrateur</h3></li>
             <p>
-               Avant de nous contacter, veuillez vérifier si la réponse à votre question ne se trouve pas dans notre F.A.Q .
+               Avant de nous contacter, veuillez vérifier si la réponse à votre question ne se trouve pas dans notre <a href="../Vue/FAQ.php">FAQ</a> </a></p> .
                 <br>
-                <a href="../Vue/FAQ.php"><input type ="submit" value="FAQ" class = "new"/></a></p>
             </p>
             <p>
                 Sinon vous pouvez contactez un administrateur :
