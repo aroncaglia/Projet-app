@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d6f9ec6-5f44-4fff-971b-c4b648cfdd3d" name="Default" comment="liaison CGU BDD&#10;pour la deuxième fois merci Adrien">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="9d6f9ec6-5f44-4fff-971b-c4b648cfdd3d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Site/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/Controleur/bo.php" afterPath="$PROJECT_DIR$/Site/Controleur/bo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/Controleur/inscription.php" afterPath="$PROJECT_DIR$/Site/Controleur/inscription.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/Modele/modelebo.php" afterPath="$PROJECT_DIR$/Site/Modele/modelebo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/Modele/modeleinsc.php" afterPath="$PROJECT_DIR$/Site/Modele/modeleinsc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/Vue/vuebo.php" afterPath="$PROJECT_DIR$/Site/Vue/vuebo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/Vue/vueinscrip.php" afterPath="$PROJECT_DIR$/Site/Vue/vueinscrip.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -72,8 +64,8 @@
       <file leaf-file-name="vueprefadmin.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Site/Vue/vueprefadmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -463,12 +455,20 @@
       <updated>1497638542740</updated>
       <workItem from="1497638545527" duration="3767000" />
       <workItem from="1497800261378" duration="5330000" />
-      <workItem from="1497859690298" duration="216000" />
+      <workItem from="1497859690298" duration="330000" />
     </task>
+    <task id="LOCAL-00001" summary="debug">
+      <created>1497859926953</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1497859926953</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9368000" />
+    <option name="totallyTimeSpent" value="9482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -519,6 +519,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="debug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -615,8 +619,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Site/Vue/vueprefadmin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="391">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           <folding />
         </state>
       </provider>
