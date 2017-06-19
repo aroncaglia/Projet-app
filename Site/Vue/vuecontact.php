@@ -9,10 +9,10 @@
 
 <ul class="horinav">
     <a class="logo"><img src="../Vue/contenu/LOGO_ISEP_FINAL.png" alt="Logo" width="65.5" height="61" /></a>
-    <li><a class="active" href="../Vue/Accueil.php">Home</a></li>
+    <li><a href="../Vue/Accueil.php">Home</a></li>
     <li><a href="../Controleur/Fonctio.php" >Mes Fontionnalitées</a></li>
     <li><a href="../Vue/Camera.php">Mes pièces</a></li>
-    <li><a href="../Vue/about.php">About</a></li>
+    <li><a class="active" href="../Vue/about.php">About</a></li>
     <li><a href="../Controleur/editionprofil.php">Editer mon profil</a></li>
     <li><a href="../Modele/deconnexion.php">Se deconnecter</a></li>
 </ul>

@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/Projet-app.iml" filepath="$PROJECT_DIR$/.idea/Projet-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/Site/.idea/Site.iml" filepath="$PROJECT_DIR$/Site/.idea/Site.iml" />
       <module fileurl="file://$USER_HOME$/Desktop/Site_Domisep/.idea/Site_Domisep.iml" filepath="$USER_HOME$/Desktop/Site_Domisep/.idea/Site_Domisep.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/Site.iml" filepath="$PROJECT_DIR$/.idea/Site.iml" />
+>>>>>>> 04228b893e59e58a380dec8f0424b5f96c413f1c
     </modules>
   </component>
 </project>

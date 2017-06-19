@@ -13,7 +13,7 @@ try {
     die('Erreur : ' . $e->getMessage());
 }
 
-$requete = $bdd->query('SELECT Fonction, id FROM actionneurs_liste ;');                  // Permet l'affectation prochaine
+$requete = $bdd->query('SELECT Fonction, id FROM actionneurs_liste ');                  // Permet l'affectation prochaine
 $types = $requete->fetchAll();
 $requete->closeCursor();
 
@@ -65,28 +65,28 @@ if (isset($_POST['action'])) {
         echo '<p> Retour vers la page actionneurs ?  <a href="../Controleur/Actionneurs.php"><input type="submit" value="Retour" class ="id" /></a> </p>';
     }
     elseif ($_POST['action'] == 'choix2') {                        // Second choix
-        $requete = $bdd->prepare('
-                    DELETE * FROM actionneur WHERE Fonction = fonction and id_capteur = $te 
-                ');
+
+        $requete = $bdd->prepare('DELETE FROM actionneur WHERE Fonction= ?');
+        $requete->execute(array($_POST['fonction']));
+
         $requete->closeCursor();
 
         echo 'Votre actionneur a bien été supprimé !';
         echo '<p> Retour vers la page actionneurs ? <a href="../Controleur/Actionneurs.php"><input type="submit" value="Retour" class ="id" /></a> </p>';
     }
     elseif ($_POST['action'] == 'choix3') {
-        $requete = $bdd->prepare('
-                UPDATE actionneur set Etat = 1 WHERE Fonction = fonction and id_capteur = $te 
-                '
-        );
+        $requete = $bdd->prepare('UPDATE actionneur set Etat=1 WHERE Fonction= ? ');
+        $requete->execute(array($_POST['fonction']));
+
         $requete->closeCursor();
         echo 'Votre actionneur a bien été activé !';
         echo '<p> Retour vers la page actionneurs ? <a href="../Controleur/Actionneurs.php"><input type="submit" value="Retour" class ="id" /></a> </p>';
     }
     elseif ($_POST['action'] == 'choix4') {
-        $requete = $bdd->prepare('
-                UPDATE actionneur set Etat = 0 WHERE Fonction = fonction and id_capteur = $te 
-                '
-        );
+
+        $requete = $bdd->prepare('UPDATE actionneur set Etat=0 WHERE Fonction= ? ');
+        $requete->execute(array($_POST['fonction']));
+
         $requete->closeCursor();
         echo 'Votre actionneur a bien été désactivé !';
         echo '<p> Retour vers la page actionneurs ? <a href="../Controleur/Actionneurs.php"><input type="submit" value="Retour" class ="id" /></a> </p>';
@@ -98,5 +98,7 @@ else {
     echo '<p>Veuillez choisir une requête !</p>';
 }
 ?>
+
+
 
 

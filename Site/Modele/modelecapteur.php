@@ -66,7 +66,7 @@ $reponse = mysql_query("SELECT * FROM capteurs WHERE id_capteur = $te ");
         }
         elseif ($_POST['action'] == 'choix2') {                        // Second choix
 
-                $requete = $bdd->prepare('DELETE FROM capteurs WHERE Fonction= ?');
+                $requete = $bdd->prepare('DELETE FROM capteurs WHERE Fonction= ? ');
                 $requete->execute(array($_POST['fonction']));
 
                 $requete->closeCursor();
@@ -75,21 +75,20 @@ $reponse = mysql_query("SELECT * FROM capteurs WHERE id_capteur = $te ");
                 echo '<p> Retour vers la page capteur ? <a href="../Controleur/capteur.php"><input type="submit" value="Retour" class ="id" /></a> </p>';
         }
         elseif ($_POST['action'] == 'choix3') {
-                $requete = $bdd->prepare('
-                UPDATE capteurs set Etat = 1 WHERE Fonction = fonction and id_capteur = $te 
-                '
-                );
+
+                $requete = $bdd->prepare('UPDATE capteurs set Etat=1 WHERE Fonction= ? ');
+                $requete->execute(array($_POST['fonction']));
+
                 $requete->closeCursor();
                 echo 'Votre capteur a bien été activé !';
                 echo '<p> Retour vers la page capteur ? <a href="../Controleur/capteur.php"><input type="submit" value="Retour" class ="id" /></a> </p>';
         }
         elseif ($_POST['action'] == 'choix4') {
-                $requete = $bdd->prepare('
-                UPDATE capteurs set Etat = 0 WHERE Fonction = fonction and id_capteur = $te 
-                '
-                );
+                $requete = $bdd->prepare('UPDATE capteurs set Etat=0 WHERE Fonction= ? ');
+                $requete->execute(array($_POST['fonction']));
+
                 $requete->closeCursor();
-                echo 'Votre capteur a bien été désactivé !';
+                    echo 'Votre capteur a bien été désactivé !';
                 echo '<p> Retour vers la page capteur ? <a href="../Controleur/capteur.php"><input type="submit" value="Retour" class ="id" /></a> </p>';
         }
 
