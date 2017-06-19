@@ -9,33 +9,31 @@
 
 <div align="middle">
     <h1> Voici la liste de vos utilisateurs :</h1>
-<table>
-    <tr>
-        <th>id</th>
-        <th>Pseudo</th>
-        <th>mail</th>
-        <th>Nbrmais</th>
-    </tr>
-    <?php //On affiche les lignes du tableau une à une à l'aide d'une boucle
-
-    while($donnees = mysql_fetch_array($reponse))
-    {
-        ?>
-
+    <table>
         <tr>
-
-            <td><?php echo $donnees['id'];?></td>
-            <td><?php echo $donnees['pseudo'];?></td>
-            <td><?php echo $donnees['mail'];?></td>
-            <td><?php echo $donnees['Nbrmais'];?></td>
-            <td><form action='../Modele/modelebo.php' method='POST'><input type="hidden" type="submit" class="Bouton" name="sup" value=<?php echo $donnees['id']; ?>/><input type='submit' name="sup2" value="Supprimer"></form></td>
+            <th>id</th>
+            <th>Pseudo</th>
+            <th>mail</th>
+            <th>Nbrmais</th>
         </tr>
+        <?php //On affiche les lignes du tableau une à une à l'aide d'une boucle
+        while($donnees = mysql_fetch_array($reponse))
+        {
+            ?>
 
-        <?php
-    }  //fin de la boucle, le tableau contient toute la BDD
+            <tr>
 
-    mysql_close();  //deconnection de mysql
-    ?>
+                <td><?php echo $donnees['id'];?></td>
+                <td><?php echo $donnees['pseudo'];?></td>
+                <td><?php echo $donnees['mail'];?></td>
+                <td><?php echo $donnees['Nbrmais'];?></td>
+                <td><form action='../Modele/modelebo.php' method='POST'><input type="hidden" type="submit" class="Bouton" name="sup" value=<?php echo $donnees['id']; ?>/><input type='submit' name="sup2" value="Supprimer"></form></td>
+            </tr>
+
+            <?php
+        }  //fin de la boucle, le tableau contient toute la BDD
+        mysql_close();  //deconnection de mysql
+        ?>
     </table>
 </div>
 <p><a href="../Vue/adminaccueil.php"><input type="submit" value="Vers l'accueil" class ="new2" /></a></p>

@@ -2,21 +2,10 @@
 <head>
     <title>Page inscription</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../Vue/CssSite1.css" />
+    <link rel="stylesheet" href="CssSite1.css" />
 </head>
 <body>
-
-<ul class="horinav">
-    <li><a href="../Vue/Acceuilavconnexion.html">Home</a></li>
-    <li><a href="Quisommesnous.php"> Qui sommes nous ? </a></li>
-    <li><a class="active" href="../Controleur/inscription.php">Inscription</a></li>
-    <li><a href="../Controleur/connexion.php">Se connecter</a></li>
-</ul>
-
-<div class="content">
-    <h1 class="double" > Domisep </h1>
-    <a class="logo"><img src="../Vue/contenu/LOGO_ISEP_FINAL.png" alt="Logo" width="65.5" height="61" /></a>
-    <div align="center">
+<div align="center">
     <h2>Inscription</h2>
     <br /><br />
     <form method="POST" action="">
@@ -26,7 +15,7 @@
                     <label for="pseudo">Pseudo :</label>
                 </td>
                 <td>
-                    <input type="text" placeholder="Votre pseudo" id="pseudo" class="ord" name="pseudo" value="<?php if(isset($pseudo)) { echo $pseudo; } ?>" />
+                    <input type="text" placeholder="Votre pseudo" id="pseudo" name="pseudo" value="<?php if(isset($pseudo)) { echo $pseudo; } ?>" class="ord"/>
                 </td>
             </tr>
             <tr>
@@ -34,7 +23,7 @@
                     <label for="Nbrmais">Nombre de maisons :</label>
                 </td>
                 <td>
-                    <input type="text" placeholder="Votre nbr de maison" id="Nbrmais" class="ord" name="Nbrmais" value="<?php if(isset($Nbrmais)) { echo $Nbrmais; } ?>" />
+                    <input type="text" placeholder="Votre nbr de maison" id="Nbrmais" name="Nbrmais" value="<?php if(isset($Nbrmais)) { echo $Nbrmais; } ?>" class="ord"/>
                 </td>
             </tr>
             <tr>
@@ -42,7 +31,7 @@
                     <label for="mail">Mail :</label>
                 </td>
                 <td>
-                    <input type="email" placeholder="Votre mail" id="mail" class="ord" name="mail" value="<?php if(isset($mail)) { echo $mail; } ?>"  />
+                    <input type="email" placeholder="Votre mail" id="mail" name="mail" value="<?php if(isset($mail)) { echo $mail; } ?>" class="ord" />
                 </td>
             </tr>
             <tr>
@@ -50,15 +39,7 @@
                     <label for="mail2">Confirmation du mail :</label>
                 </td>
                 <td>
-                    <input type="email" placeholder="Confirmez votre mail" id="mail2" class="ord" name="mail2" value="<?php if(isset($mail2)) { echo $mail2; } ?>"  />
-                </td>
-            </tr>
-            <tr>
-                <td align="right">
-                    <label for="code">Code d'accès :</label>
-                </td>
-                <td>
-                    <input type="text" placeholder="ZOSR" id="code" name="code" class="ord" value="<?php if(isset($mail2)) { echo $mail2; } ?>" />
+                    <input type="email" placeholder="Confirmez votre mail" id="mail2" name="mail2" value="<?php if(isset($mail2)) { echo $mail2; } ?>" class="ord" />
                 </td>
             </tr>
             <tr>
@@ -91,12 +72,6 @@
         echo '<font color="red">'.$erreur."</font>";
     }
     ?>
-    </div>
 </div>
 </body>
-
-<div class="footer">
-    <p>Copyright : B-Creative</p>
-</div>
-
 </html>
