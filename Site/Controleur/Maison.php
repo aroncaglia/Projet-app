@@ -3,14 +3,15 @@ session_start();
 $id =$_SESSION['id'];
 
 require('../Modele/Mod_maison.php');
-require('../Vue/vue_maison.php');
 
 
 
-if($_POST['requete']==='ajout'){
+
+if($_POST['requete']==='ajout')
+{
     $nbr=getmaison($id);
     $nbr=$nbr[0]+1;
-
+    $modif = insertmaison($nbr);
 }
 
 
@@ -19,6 +20,7 @@ if($_POST['requete']==='sup'){
     if ($nbr == 2)
     {
         $nbr=$nbr[0]-1;
+        $modif = insertmaison($nbr);
     }
     else
     {
@@ -39,3 +41,5 @@ if($_POST['requete']==='supprimer')
 {
 
 }
+
+require('../Vue/vue_maison.php');

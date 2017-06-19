@@ -24,38 +24,6 @@ if(isset($_POST['forminscription'])) {
                             $insertmbr = $bdd->prepare("INSERT INTO membres(pseudo, Nbrmais, mail, motdepasse) VALUES(?, ?, ?, ?)");
                             $insertmbr->execute(array($pseudo, $Nbrmais, $mail, $mdp));
 
-                            // Génération aléatoire d'une clé
-                            $cle = md5(microtime(TRUE)*100000);
-                            // Insertion de la clé dans la base de données
-                            $stmt = $bdd->prepare("UPDATE membres SET cle=:cle WHERE pseudo like :pseudo");
-                            $stmt->bindParam(':cle', $cle);
-                            $stmt->bindParam(':pseudo', $pseudo);
-                            $stmt->execute();
-                            ini_set("SMTP","smtp.gmail.com" );
-                            // Préparation du mail contenant le lien d'activation
-                            $destinataire = $mail;
-                            $sujet = "Activer votre compte" ;
-                            $entete = "From: inscription.php" ;
-
-                            // Le lien d'activation est composé du pseudo(pseudo) et de la clé(cle)
-                            $message = 'Bienvenue sur VotreSite,
- 
-                            Pour activer votre compte, veuillez cliquer sur le lien ci dessous
-                            ou copier/coller dans votre navigateur internet.
- 
-                            http://localhost/Site_Domisep/untitled/Vue/activation.php?pseudo='.urlencode($pseudo).'&cle='.urlencode($cle).'
- 
-                             ---------------
-                            Ceci est un mail automatique, Merci de ne pas y répondre.';
-
-                            if (mail($destinataire, $sujet, $message, $entete)){
-                                echo "mail envoye";
-
-                            }
-                            else{
-                                echo "mail non envoye à" . $destinataire ;
-                            }// Envoi du mail
-
                             $erreur ="Votre compte a bien été créé ! <a href='../Controleur/connexion.php'> Me connecter </a>";
                         } else
                         {

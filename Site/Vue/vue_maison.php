@@ -1,5 +1,4 @@
 <?php
-session_start();
 $id =$_SESSION['id'];
 ?>
 
@@ -17,7 +16,7 @@ $id =$_SESSION['id'];
     <li><a href="Accueil.html">Home</a></li>
     <li><a  href="Mes_Fonctionnalitées.html">Mes Fontionnalitées</a></li>
     <li><a class="active" href="Choixmaison.php">Mes pièces</a></li>
-    <li><a href="about.html">Aide</a></li>
+    <li><a href="about.php">About</a></li>
 </ul>
 
 
