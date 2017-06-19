@@ -1,6 +1,6 @@
 <?php
 
-$bdd = new PDO('mysql:host=127.0.0.1;dbname=espace_membre', 'root', '');
+$bdd = new PDO('mysql:host=127.0.0.1;dbname=bdddomisep', 'root', '');
 
 if (isset($_POST['forminscription'])) {
     $pseudo = htmlspecialchars($_POST['pseudo']);
@@ -21,7 +21,7 @@ if (isset($_POST['forminscription'])) {
                         if ($mdp == $mdp2) {
                             $insertmbr = $bdd->prepare("INSERT INTO membres(pseudo, Nbrmais, mail, motdepasse) VALUES(?, ?, ?, ?)");
                             $insertmbr->execute(array($pseudo, $Nbrmais, $mail, $mdp));
-                            $erreur = ">Me connecter</a>";
+                            $erreur = "<a href=\"../Controleur/connexion.php\">Me connecter</a>";
                         } else {
                             $erreur = "Vos mots de passes ne correspondent pas !";
                         }

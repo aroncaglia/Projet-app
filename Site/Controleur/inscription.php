@@ -1,8 +1,8 @@
 <?php
 
-require 'modeleinsc.php';
+require '../Modele/modeleinsc.php';
 
-require 'vueinscrip.php';
+require '../Vue/vueinscrip.php';
 
 ?>
 

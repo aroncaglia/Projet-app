@@ -1,13 +1,27 @@
 <html>
 <head>
     <title>Page inscription</title>
+    <link rel="stylesheet" type ="text/css" href="../Vue/CssSite1.css" />
     <meta charset="utf-8">
-    <link rel="stylesheet" href="CssSite1.css" />
 </head>
 <body>
-<div align="center">
-    <h2>Inscription</h2>
-    <br /><br />
+
+<ul class="horinav">
+    <li><a href="../Vue/Acceuilavconnexion.html">Home</a></li>
+    <li><a href="Quisommesnous.php"> Qui sommes nous ? </a></li>
+    <li><a class="active" href="../Controleur/inscription.php">Inscription</a></li>
+    <li><a href="../Controleur/connexion.php">Se connecter</a></li>
+</ul>
+
+<div class="content">
+    <h1 class="double" > Domisep </h1>
+</div>
+<div>
+    <a class="logo"><img src="../Vue/contenu/LOGO_ISEP_FINAL.png" alt="Logo" width="65.5" height="61" /></a>
+    <p>
+        <a href="../Controleur/Contact.php"><input type ="submit" value="Contact Administrateur" class = "new"/></a>
+    </p>
+    <div align="center">
     <form method="POST" action="">
         <table>
             <tr>
@@ -67,6 +81,7 @@
             </tr>
         </table>
     </form>
+    </div>
     <?php
     if(isset($erreur)) {
         echo '<font color="red">'.$erreur."</font>";
@@ -74,4 +89,9 @@
     ?>
 </div>
 </body>
+
+<div class="footer">
+    <p>Copyright : B-Creative</p>
+</div>
+
 </html>

@@ -8,7 +8,7 @@
 
 <ul class="horinav">
     <li><a href="../Vue/Acceuilavconnexion.html">Home</a></li>
-    <li><a href="Quisommesnous.php"> Qui sommes nous ? </a></li>
+    <li><a href="../Vue/Quisommesnous.php"> Qui sommes nous ? </a></li>
     <li><a href="../Controleur/inscription.php">Inscription</a></li>
     <li><a class="active" href="../Controleur/connexion.php">Se connecter</a></li>
 </ul>
