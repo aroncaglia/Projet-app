@@ -36,7 +36,7 @@
                             </tr>
                             <?php //On affiche les lignes du tableau une à une à l'aide d'une boucle
 
-                            while($donnees = mysql_fetch_array($reponse))
+                            while($donnees = array($reponse))
                             {
                                 ?>
 
