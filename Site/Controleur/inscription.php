@@ -1,29 +1,10 @@
 <?php
 
-require('../Modele/modeleinsc.php');
-function insc() {}
-$bdd = new PDO('mysql:host=localhost;dbname=bdddomisep;charset=utf8', 'root', '');
+require '../Modele/modeleinsc.php';
 
-if(isset($_POST['forminscription'])) {
-    $pseudo = htmlspecialchars($_POST['pseudo']);
-    $Nbrmais = intval($_POST['Nbrmais']);
-    $mail = htmlspecialchars($_POST['mail']);
-    $mail2 = htmlspecialchars($_POST['mail2']);
-    $mdp = sha1($_POST['mdp']);
-    $mdp2 = sha1($_POST['mdp2']);
-    if(!empty($_POST['pseudo']) AND !empty($_POST['Nbrmais']) AND !empty($_POST['mail']) AND !empty($_POST['mail2']) AND !empty($_POST['mdp']) AND !empty($_POST['mdp2'])) {
-        $pseudolength = strlen($pseudo);
-        if($pseudolength <= 255) {
-            if($mail == $mail2) {
-                if(filter_var($mail, FILTER_VALIDATE_EMAIL)) {
-                    $reqmail = $bdd->prepare("SELECT * FROM utilisateur WHERE mail = ?");
-                    $reqmail->execute(array($mail));
-                    $mailexist = $reqmail->rowCount();
-                    if($mailexist == 0) {
-                        if($mdp == $mdp2) {
-                            $insertmbr = $bdd->prepare("INSERT INTO membres(pseudo, Nbrmais, mail, motdepasse) VALUES(?, ?, ?, ?)");
-                            $insertmbr->execute(array($pseudo, $Nbrmais, $mail, $mdp));
+require '../Vue/vueinscrip.php';
 
+<<<<<<< HEAD
                             $erreur ="Votre compte a bien été créé ! <a href='../Controleur/connexion.php'> Me connecter </a>";
                         } else
                         {
@@ -47,3 +28,8 @@ if(isset($_POST['forminscription'])) {
 }
 require('../Vue/vueinscrip.php');
 ?>
+=======
+?>
+
+
+>>>>>>> 657a50b0eb5577e82e049a424e0b6ed7993f6166
